@@ -1,0 +1,23 @@
+﻿@model NotesZone.Domain.User.User
+ 
+    
+    @*we are not using thus file*@
+
+
+<div>
+    <span class="capption">
+        <b> Hi Guest:</b>
+        @Model.Email
+    </span>
+
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Upload Notes", "Index", "UploadDashboard", routeValues: null, htmlAttributes: new { id = "uploadLink" })</li>
+        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        @if (@Model.Email != null)
+        {
+             <li>@Html.ActionLink("SignOut", "SignOut", "Account", routeValues: null, htmlAttributes: new { id = "signOutLink" })</li>
+        }
+    </ul>
+   
+</div>

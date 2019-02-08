@@ -1,0 +1,61 @@
+﻿@model NotesZone.Web.Infra.ViewModels.ItemContentViewModel
+
+    <div class="form-group">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.LabelFor(m => m.ItemContent.Title, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.ItemContent.Title, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.ItemContent.Title, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.ItemContent.SortDescription, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.ItemContent.SortDescription, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.ItemContent.SortDescription, "", new { @class = "text-danger" })
+        </div>
+
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.ItemContent.Content, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextAreaFor(m => m.ItemContent.Content, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.ItemContent.Content, "", new { @class = "text-danger" })
+        </div>
+
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.ItemContent.SmallImage, new { @class = "col-md-2 control-label" })
+
+        <div class="col-md-10">
+            <span class="btn btn-default btn-file">Browse Image @Html.TextBoxFor(m => m.SmallImage, new { type = "file" })</span>
+                @Html.ValidationMessageFor(m => m.SmallImage, "", new { @class = "text-danger" })
+                <label>Small image<span>(Required Field)</span></label>
+</div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.ItemContent.FileName, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            <span class="btn btn-default btn-file"> Browse File
+                @Html.TextBoxFor(m => m.DocumentFile, new { type = "file" }) </span>
+                @Html.ValidationMessageFor(m => m.DocumentFile, "", new { @class = "text-danger" })
+                <label>Document Files<span>(Required Field)</span></label>
+</div>
+    </div>
+
+
+
+
+    @*Working Code*@
+
+    @*<div class="form-group">
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </div>*@
+

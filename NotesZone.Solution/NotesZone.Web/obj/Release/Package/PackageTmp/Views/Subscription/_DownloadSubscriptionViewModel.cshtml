@@ -1,0 +1,26 @@
+﻿@model NotesZone.Web.Infra.ViewModels.DownloadSubscriptionViewModel
+
+<div>
+    <div class="text-medium-header">Available Notes</div>
+    @if (Model.subscriptions.Count > 0)
+    {
+        foreach (var subscription in Model.subscriptions)
+        {
+            foreach (var element in subscription.ItemContents)
+            {
+                <p class="a-size-small text-small-header">@element.Title</p>
+                <p class="a-size-small text-small-header">@element.SortDescription</p>
+                <p class="a-size-small text-small-header">@element.Content</p>
+                var fileName = @element.FileName == null ? @element.FileName : @element.FileName.Split('_')[0];
+                <p class="a-size-small text-small-header">@fileName</p>
+                using (Html.BeginForm("Download", "Subscription"))
+                {
+                    @Html.Hidden("fileName", @element.FileName);
+                    <button id="btnsubscriptionDownload" class="white-button"><span>Download</span></button>
+                }
+            }
+            <div class="content-separator"></div>
+        }
+    }
+   
+</div>

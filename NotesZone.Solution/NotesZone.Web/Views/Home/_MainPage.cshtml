@@ -1,0 +1,14 @@
+﻿@model NotesZone.Web.Infra.ViewModels.MainPageViewModel
+
+<div class="main" id="main-two-columns">
+
+    @Html.Partial("_MainPageLeftColumn", (NotesZone.Web.Infra.ViewModels.MainPageLeftColumnViewModel)Model.LeftColumn)
+
+    @Html.Partial("_MainPageRightColumn", Model.RightColumn)
+    <!-- Pagging -->
+    @*@Html.Partial("_Pagination", NotesZone.Web.Infra.ViewModels.PagingViewModel)*@
+    <!-- End Pagging -->
+
+    <div class="clearer">&nbsp;</div>
+
+</div>

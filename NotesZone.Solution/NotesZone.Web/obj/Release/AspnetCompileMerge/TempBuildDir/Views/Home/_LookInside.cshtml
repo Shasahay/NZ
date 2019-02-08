@@ -1,0 +1,51 @@
+﻿@Scripts.Render("~/bundles/jquery")
+<script type="text/javascript">
+    $(function () {
+
+      openPreview = (function (data) {
+            //e.preventDefault();
+            openPdf(data);
+            $.ajax({
+                url: '/Home/Check',
+                type: 'POST',
+                data: { id: 42 },
+                contentType: 'application/json; charset=utf-8',
+                success: function (data) {
+                   // alert("Success");
+                },
+                error: function () {
+                    alert("error");
+                }
+            });
+
+
+        })
+
+
+    })
+
+</script>
+
+
+<div>
+    @{string flName = string.Concat("'/files/", @ViewBag.fileName, ".pdf'");}
+    @{string styleClass = @ViewBag.styleClass;}
+    @*<a href="#page" onclick="openPdf(@flName)" class="preview-button"></a>*@
+    <a href="#page" onclick="openPreview(@flName)" class=@styleClass></a>
+</div>
+<div id="page" class="preview-page-style">
+    <a href="#" class="cancel">&times;</a>
+    <canvas id="canvas" class="preview-canvas-style"></canvas>
+    
+    <span class="next" onclick="openNextPage()">Next</span>
+    <span class="back" onclick="openPrevPage()">Prev</span>
+    @*<<div><button onclick="openNextPage()"><span style="z-index:50">Next</span></button></div>*@
+</div>
+<div id="cover" class="preview-cover">
+
+</div>
+
+@Scripts.Render("~/Scripts/js/pdf.js")
+@Scripts.Render("~/Scripts/js/pdf.worker.js")
+@Scripts.Render("~/Scripts/js/main.js")
+@Styles.Render("~/Content/_lookInside.css")

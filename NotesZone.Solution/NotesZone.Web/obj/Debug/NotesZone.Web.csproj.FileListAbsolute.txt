@@ -1,0 +1,127 @@
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Web.dll.config
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Web.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Web.pdb
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Antlr3.Runtime.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\AutoMapper.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\EntityFramework.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Newtonsoft.Json.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\NotesZone.DataAccess.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Domain.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Web.Infra.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Owin.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.Helpers.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.Mvc.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.Optimization.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.Razor.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\WebGrease.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\NotesZone.DataAccess.pdb
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Domain.pdb
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Web.Infra.pdb
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\AutoMapper.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.Helpers.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.Mvc.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.Optimization.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.Razor.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Antlr3.Runtime.pdb
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Newtonsoft.Json.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\EntityFramework.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\obj\Debug\NotesZone.Web.csprojResolveAssemblyReference.cache
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\obj\Debug\NotesZone.Web.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web\obj\Debug\NotesZone.Web.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Web.dll.config
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Web.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Web.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Antlr3.Runtime.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\AutoMapper.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\EntityFramework.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\EntityFramework.SqlServer.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Newtonsoft.Json.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\NotesZone.DataAccess.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Domain.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Web.Infra.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Owin.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.Helpers.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.Mvc.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.Optimization.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.Razor.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.Deployment.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.Razor.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\WebGrease.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\NotesZone.DataAccess.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Domain.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\NotesZone.Web.Infra.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\AutoMapper.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.Helpers.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.Mvc.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.Optimization.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.Razor.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.Deployment.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\System.Web.WebPages.Razor.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Antlr3.Runtime.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Newtonsoft.Json.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\EntityFramework.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\EntityFramework.SqlServer.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\obj\Debug\NotesZone.Web.csprojResolveAssemblyReference.cache
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\obj\Debug\NotesZone.Web.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\obj\Debug\NotesZone.Web.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web\bin\NotesZone.DataAccess.dll.config

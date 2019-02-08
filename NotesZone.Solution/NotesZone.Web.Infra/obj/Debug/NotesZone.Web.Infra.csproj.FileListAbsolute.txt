@@ -1,0 +1,40 @@
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.Web.Infra.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.Web.Infra.pdb
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\AutoMapper.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.DataAccess.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.Domain.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\EntityFramework.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.DataAccess.pdb
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.Domain.pdb
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\AutoMapper.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\EntityFramework.xml
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\obj\Debug\NotesZone.Web.Infra.csprojResolveAssemblyReference.cache
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\obj\Debug\NotesZone.Web.Infra.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\obj\Debug\NotesZone.Web.Infra.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\obj\Debug\NotesZone.Web.Infra.csprojResolveAssemblyReference.cache
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\obj\Debug\NotesZone.Web.Infra.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\obj\Debug\NotesZone.Web.Infra.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.Web.Infra.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.Web.Infra.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\AutoMapper.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.DataAccess.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.Domain.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.Helpers.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.Mvc.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.Razor.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.WebPages.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.WebPages.Razor.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\EntityFramework.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.DataAccess.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.Domain.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\AutoMapper.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.Helpers.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.Mvc.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.Razor.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.WebPages.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\System.Web.WebPages.Razor.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\EntityFramework.xml
+C:\SNX\Project\NotesZone.Solution\NotesZone.Web.Infra\bin\Debug\NotesZone.DataAccess.dll.config

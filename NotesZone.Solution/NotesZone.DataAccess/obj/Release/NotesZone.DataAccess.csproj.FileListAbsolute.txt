@@ -1,0 +1,12 @@
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\bin\Release\NotesZone.DataAccess.dll.config
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\bin\Release\NotesZone.DataAccess.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\bin\Release\NotesZone.DataAccess.pdb
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\bin\Release\EntityFramework.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\bin\Release\NotesZone.Domain.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\bin\Release\NotesZone.Domain.pdb
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\bin\Release\EntityFramework.xml
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\obj\Release\NotesZone.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\obj\Release\NotesZone.DataAccess.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.DataAccess\obj\Release\NotesZone.DataAccess.pdb

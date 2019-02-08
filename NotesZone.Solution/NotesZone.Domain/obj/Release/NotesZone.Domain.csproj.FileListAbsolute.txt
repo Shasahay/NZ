@@ -1,0 +1,5 @@
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Domain\bin\Release\NotesZone.Domain.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Domain\bin\Release\NotesZone.Domain.pdb
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Domain\obj\Release\NotesZone.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Domain\obj\Release\NotesZone.Domain.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Domain\obj\Release\NotesZone.Domain.pdb

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Notes Zone</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <title>Notes Zone - @RenderSection("TitleContent", required:false)</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="google-signin-client_id" content="371216790201-kt03k24qeq1qpajd2pvmcoaahr54df2b.apps.googleusercontent.com">
+    
+    @RenderSection("HeaderContent", required: false)
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 100%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body id="top">
+    @*<div id="network">*@
+    <div id="">
+        <div style="    float: left;margin-left: -3em;height: 0px;"><img src="~/Content/themes/base/images/Logo1.png"  style="vertical-align: middle; height: 130px; width: 220px"/></div>
+        <div class="center-wrapper">
+            @*<div class="left">@DateTime.Now.ToShortDateString() <span class="text-separator">|</span> <span class="quiet">Notes Zone</span></div>*@
+            <div class="right" id="toolbar">
+                @*@{Html.RenderAction("BasketSummary", "Basket");}*@
+                @if (User != null)
+                {
+                    @*@Html.ActionLink("Go to administration board", "Index", new { area = "Admin", controller = "DashBoard" })*@
+
+                }
+
+                @*Text size <a href="#" title="Larger text"><img src="/Content/themes/base/images/icon-plus.gif" width="20" height="20" alt="" /></a> <a href="#" title="Smaller text"><img src="/Content/themes/base/images/icon-minus.gif" width="20" height="20" alt="" /></a>*@
+
+                @{ Html.RenderAction("LogInSumary", "Account"); }
+            </div>
+            
+            <div class="clearer">&nbsp;</div>
+        </div>
+    </div>
+
+    <div id="site">
+        <div class="center-wrapper">
+            @RenderBody()
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

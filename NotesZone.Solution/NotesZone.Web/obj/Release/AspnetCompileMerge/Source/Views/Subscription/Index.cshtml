@@ -1,0 +1,40 @@
+﻿@*@model NotesZone.Web.Infra.ViewModels.UserSubscriptionViewModel*@
+@model NotesZone.Web.Infra.ViewModels.SubscriptionViewModel
+@{
+    // ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section TitleContent{
+    Index page
+}
+
+@section HeaderContent{
+
+}
+@Html.Partial("_Header", @Model.Header)
+@{
+    ViewBag.Title = "Notes Zone";
+}
+
+<div class="main" id="divSubscription">
+    <div class="left" id="divSubscription-left">
+        @Html.Partial("_DownloadSubscriptionViewModel", Model.UserSubscriptionViewModel.PaidSubscriptionViewModel.DownloadSubscriptionViewModel)
+    </div>
+    <div class="right sidebar" id="divSubscription-right">
+        @Html.Partial("_UploadSubscriptionViewModel", Model.UserSubscriptionViewModel.PaidSubscriptionViewModel.UploadSubscriptionViewModel)
+    </div>
+
+    
+
+</div>
+
+<div>
+    @Html.Partial("_Footer", @Model.Footer)
+</div>
+
+
+
+
+
+

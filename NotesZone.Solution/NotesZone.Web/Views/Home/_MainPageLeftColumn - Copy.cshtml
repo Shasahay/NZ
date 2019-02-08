@@ -1,0 +1,52 @@
+﻿@using NotesZone.Web.Infra.Extensions
+@model NotesZone.Web.Infra.ViewModels.MainPageLeftColumnViewModel
+
+
+<div class="left" id="main-left">
+    <div class="post">
+        <div class="post-title">
+
+            @Html.Partial("_HomeSlider");
+
+            @*<h2>
+                    @Html.ActionLink(Model.FirstItem.ItemContent.Title, "Details", "Home", new { id = Model.FirstItem.Id }, null)
+                </h2>*@
+        </div>
+        @*<div class="post-date">@Model.FirstItem.ItemContent.CreatedDate.ToShortDateString() by @Model.FirstItem.ItemContent.CreatedBy</div>*@
+
+        <div class="post-body">
+            <p>
+                <div id="divHomeImage">@Html.RenderImageWithPath(Model.FirstItem.ItemContent.SmallImage, "", 510, 233)</div>
+                <a><span>-></span></a>
+                
+            </p>
+            @Html.Raw(@Model.FirstItem.ItemContent.SortDescription)
+            @Html.ActionLink("Read more >>", "Details", "Home", new { id = Model.FirstItem.Id }, new { Class = "more" })
+        </div>
+    </div>
+    <div class="content-separator"></div>
+
+    @foreach (var item in Model.RemainItems)
+    {
+        <div class="post">
+            @*<a href="#">@Html.RenderImageWithPath(item.ItemContent.MediumImage, "left bordered", 152, 119)</a>*@
+            <h3>
+                <span class="a-size-small"> @Html.ActionLink(item.ItemContent.Title, "Details", "Home", new { id = item.Id }, null)</span>
+            </h3>
+            <span class="a-size-small">@Html.Raw(@item.ItemContent.SortDescription)</span>
+            @Html.ActionLink("Read more >>", "Details", "Home", new { id = item.Id }, new { Class = "more" })
+            <div class="clearer">&nbsp;</div>
+        </div>
+        <div class="content-separator"></div>
+    }
+    <!-- Pagging -->
+    @*@Html.Partial("_Pagination", Model.PagingData)*@   @*since we are not using pagging on home page so commenting this code if require in future enable it*@
+    <!-- End Pagging -->
+</div>
+
+
+
+
+
+
+

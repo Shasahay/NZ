@@ -1,0 +1,49 @@
+﻿@model NotesZone.Web.Infra.ViewModels.MainPageRightColumnViewModel
+
+<div class="right sidebar" id="sidebar">
+    <div class="section">
+        <div class="section-title">
+            <div class="left a-size-small a-header-color">Most Downloaded</div>
+            <div class="right"><img src="/Content/themes/base/images/download.png" width="14" height="14" alt="" /></div>
+            <div class="clearer">&nbsp;</div>
+        </div>
+        <div class="section-content">
+            <ul class="nice-list">
+                @foreach (var item in Model.LatestNews)
+                {
+                    <li>
+                        <div class="left">
+                            @Html.ActionLink(item.ItemContent.Title, "Details", "Home", new { id = item.Id }, null)
+                        </div>
+                        @*<div class="right">@item.CreatedDate.ToShortTimeString()</div>*@
+                        <div class="right"> @Html.Partial("_LookInside", new ViewDataDictionary { { "fileName", @item.ItemContent.FileName }, { "styleClass", "preview-link" } }) </div>
+                        <div class="clearer">&nbsp;</div>
+                    </li>
+                }
+                <li><a href="#" class="more">Browse all &#187;</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <div class="section-title a-size-small a-header-color">
+            Most Viewed
+            <div class="right"><img src="/Content/themes/base/images/eye.png" width="14" height="14" alt="" /></div>
+        </div>
+        <div class="section-content">
+            <ul class="nice-list">
+                @for (var index = 0; index < Model.MostViews.Count; index++)
+                {
+                    var currentItem = Model.MostViews.ElementAt(index);
+
+                    <li>
+                        <span class="quiet">@Html.Raw(index + 1).</span>
+                        @Html.ActionLink(currentItem.ItemContent.Title, "Details", "Home", new { id = currentItem.Id }, null)
+                        <div class="right"> @Html.Partial("_LookInside", new ViewDataDictionary { { "fileName", currentItem.ItemContent.FileName }, { "styleClass", "preview-link" } }) </div>
+                        @*(@currentItem..NumOfView times)*@
+                    </li>
+                }
+                <li><a href="#" class="more">Browse all &#187;</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

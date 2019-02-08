@@ -1,0 +1,40 @@
+﻿@model NotesZone.Web.Infra.ViewModels.UploadDashboardViewModel
+
+@{
+    // ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section TitleContent{
+    Index page
+}
+
+@section HeaderContent{
+
+}
+@Html.Partial("_Header", @Model.Header)
+@{
+    ViewBag.Title = "Upload your Document..........";
+}
+<div class="left">
+@using (Html.BeginForm("UploadDashboard",
+                        "UploadDashboard",
+                        FormMethod.Post,
+                        new { enctype = "multipart/form-data" }))
+{ 
+        <div class="item-content-style">
+            <span class="a-size-medium">Upload Item Description</span>
+        @Html.Partial("_ApplicationFilter", Model.Filter)
+        @Html.Partial("_ItemContent", @Model.ItemContentViewModel)
+            <input type="submit" value="Submit" class="orange-button">
+            
+    </div>
+}
+    
+</div>
+<div class="author-profile-style">
+    <span class="a-size-medium">Author Profile</span>
+    @Html.Partial("_AuthorProfile", @Model.AuthorProfileViewModel)
+</div>
+<section>
+    @Html.Partial("_Footer", @Model.Footer)
+</section>

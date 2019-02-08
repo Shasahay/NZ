@@ -1,0 +1,15 @@
+﻿@model NotesZone.Web.Infra.ViewModels.FooterViewModel
+<div id="footer">
+    <div class="left">
+        &copy; 2016-2017 Note Zone <span class="text-separator"></span>
+        <a href="#">Home</a>
+        @foreach (var cat in Model.Categories)
+        {
+            <span class="text-separator">|</span>
+            <a href="#">@cat.Name</a>
+        }
+    </div>
+    <div class="right"> Provided by XX Group and designed by Notes Zone <a href="">Shashank Sahay</a></div>
+    <div class="clearer">&nbsp;</div>
+</div>
+

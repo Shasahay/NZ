@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2B051DE-F857-4450-9371-4CA74F860FEA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NotesZone.DataAccess</RootNamespace>
+    <AssemblyName>NotesZone.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\Common\CategoryMapping.cs" />
+    <Compile Include="Config\Common\ItemCategoryMapping.cs" />
+    <Compile Include="Config\Common\ItemContentMapping.cs" />
+    <Compile Include="Config\Common\ItemMapping.cs" />
+    <Compile Include="Config\Common\ItemRecordMapping.cs" />
+    <Compile Include="Config\Common\SubjectMapping.cs" />
+    <Compile Include="Config\Common\SubscriptionMapping.cs" />
+    <Compile Include="Config\Common\UniversityMapping.cs" />
+    <Compile Include="Config\EntityBaseMapping.cs" />
+    <Compile Include="Config\User\UserMapping.cs" />
+    <Compile Include="Config\User\UserProfileMapping.cs" />
+    <Compile Include="Config\User\UserSubscriptionMapping.cs" />
+    <Compile Include="DbContextExtensions.cs" />
+    <Compile Include="Helper\IEncrypting.cs" />
+    <Compile Include="NotesZoneDBContext.cs" />
+    <Compile Include="NotesZoneDBInitializer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Basket\BasketRepository.cs" />
+    <Compile Include="Repository\Basket\IBasketRepository.cs" />
+    <Compile Include="Repository\Common\CategoryRepository.cs" />
+    <Compile Include="Repository\Common\ICategoryRepository.cs" />
+    <Compile Include="Repository\Common\IItemRepository.cs" />
+    <Compile Include="Repository\Common\ISubjectRepository.cs" />
+    <Compile Include="Repository\Common\ItemRepository.cs" />
+    <Compile Include="Repository\Common\IUniversityRepository.cs" />
+    <Compile Include="Repository\Email\EmailRepository.cs" />
+    <Compile Include="Repository\Email\IEmailRepository.cs" />
+    <Compile Include="Repository\Order\IOrderProcessRepository.cs" />
+    <Compile Include="Repository\Order\OrderProcessRepository.cs" />
+    <Compile Include="Repository\User\IUserRepository.cs" />
+    <Compile Include="Repository\User\IUserSubscriptionRepository.cs" />
+    <Compile Include="Repository\User\UserRepository.cs" />
+    <Compile Include="Repository\User\UserSubscriptionRepository.cs" />
+    <Compile Include="UnitOfWork\IRepository.cs" />
+    <Compile Include="UnitOfWork\IUnitOfWork.cs" />
+    <Compile Include="UnitOfWork\Repository.cs" />
+    <Compile Include="UnitOfWork\UnitOfWork.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NotesZone.Domain\NotesZone.Domain.csproj">
+      <Project>{4e8e7b86-f188-4b57-af8c-a1b23287d0a2}</Project>
+      <Name>NotesZone.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

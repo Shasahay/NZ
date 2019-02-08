@@ -1,0 +1,13 @@
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Release\NotesZone.Web.Infra.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Release\NotesZone.Web.Infra.pdb
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Release\AutoMapper.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Release\NotesZone.DataAccess.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Release\NotesZone.Domain.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Release\EntityFramework.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Release\NotesZone.DataAccess.pdb
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Release\NotesZone.Domain.pdb
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Release\AutoMapper.xml
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\bin\Release\EntityFramework.xml
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\obj\Release\NotesZone.Web.Infra.csprojResolveAssemblyReference.cache
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\obj\Release\NotesZone.Web.Infra.dll
+C:\Users\Shashank.Sahay\Documents\Visual Studio 2013\Projects\NotesZone.Solution\NotesZone.Web.Infra\obj\Release\NotesZone.Web.Infra.pdb

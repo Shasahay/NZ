@@ -1,0 +1,11 @@
+﻿@model NotesZone.Web.Infra.ViewModels.UserDashboardViewModel
+
+@Html.Partial("_Header", @Model.Header)
+<div>
+    <span class="a-size-medium">Your Profile</span>
+    @*@Html.Partial("_UserProfile", @Model.AuthorProfileViewModel)*@   @*Do not know why is it not working*@
+    @Html.Partial("_UserProfile", @Model.UserProfileViewModel)
+</div>
+<section>
+    @Html.Partial("_Footer", @Model.Footer)
+</section>

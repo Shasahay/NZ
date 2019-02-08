@@ -1,0 +1,21 @@
+﻿@model NotesZone.Web.Infra.ViewModels.UploadSubscriptionViewModel
+
+<div>
+    <div class="text-medium-header"> Your Uploaded Items</div>
+    @if (Model.subscriptions.Count > 0)
+    {
+        foreach (var subscription in Model.subscriptions)
+        {
+            foreach (var element in subscription.ItemContents)
+            {
+                <p class="a-size-small text-small-header">@element.Title</p>
+                <p class="a-size-small a-color-secondary">@element.SortDescription</p>
+                <p class="a-size-small a-color-secondary">@element.Content</p>
+                var fileName = @element.FileName == null ? @element.FileName : @element.FileName.Split('_')[0];
+                <p class="a-size-small a-color-secondary">@fileName</p>
+            }
+            <div class="content-separator"></div>
+        }
+    }
+
+</div>

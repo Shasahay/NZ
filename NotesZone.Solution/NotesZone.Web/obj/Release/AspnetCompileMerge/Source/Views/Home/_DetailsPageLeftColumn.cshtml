@@ -1,0 +1,35 @@
+﻿@model NotesZone.Web.Infra.ViewModels.DetailsLeftColumnViewModel
+
+<div id="main-left" class="left">
+    <div class="post">
+        <div class="post-title">
+            <h2>
+                @Html.Raw(@Model.CurrentItem.ItemContent.Title)
+            </h2>
+        </div>
+        <div class="post-date">
+            @*In
+                @Html.ActionLink(@Model.CurrentItem.Category.Name, "Category", "Home", new { id = Model.CurrentItem.Category.Id }, null)
+                -
+                @Html.Raw(@Model.CurrentItem.CreatedDate.ToShortDateString()) by @Html.Raw(@Model.CurrentItem.CreatedBy)*@
+        </div>
+        <div class="post-date">
+        </div>
+        <div class="post-body">
+            <p>
+                @Html.Raw(@Model.CurrentItem.ItemContent.Content)
+            </p>
+
+        </div>
+        
+        <div style="float:right">
+            @if(@Model.CurrentItem.Category.Name == "Notes")
+            { 
+                @Html.Partial("_AddtoDownload", @Model.CurrentItem)
+            }
+        </div>
+
+
+
+    </div>
+</div>

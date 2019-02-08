@@ -1,0 +1,10 @@
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Domain\bin\Debug\NotesZone.Domain.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Domain\bin\Debug\NotesZone.Domain.pdb
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Domain\obj\Debug\NotesZone.Domain.dll
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Domain\obj\Debug\NotesZone.Domain.pdb
+C:\Users\Shashank.Sahay\documents\visual studio 2013\Projects\NotesZone.Solution\NotesZone.Domain\obj\Debug\NotesZone.Domain.csprojResolveAssemblyReference.cache
+C:\SNX\Project\NotesZone.Solution\NotesZone.Domain\bin\Debug\NotesZone.Domain.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Domain\bin\Debug\NotesZone.Domain.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Domain\obj\Debug\NotesZone.Domain.dll
+C:\SNX\Project\NotesZone.Solution\NotesZone.Domain\obj\Debug\NotesZone.Domain.pdb
+C:\SNX\Project\NotesZone.Solution\NotesZone.Domain\obj\Debug\NotesZone.Domain.csprojResolveAssemblyReference.cache

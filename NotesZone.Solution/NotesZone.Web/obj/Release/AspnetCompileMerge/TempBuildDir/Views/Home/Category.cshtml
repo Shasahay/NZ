@@ -1,0 +1,23 @@
+﻿@model NotesZone.Web.Infra.ViewModels.HomePageViewModel
+
+@section TitleContent{
+    Category page
+}
+
+@section HeaderContent{
+
+}
+
+@{
+    ViewBag.Title = "Notes Zone";
+}
+
+@Html.Partial("_Header", Model.Header)
+@*@Html.Partial("_AuthorFilter", Model.Filter.AuthorFilter)*@  @*wil pass filter as filter view model wheh ready with category filter   *@
+@Html.Partial("_ApplicationFilter", Model.Filter)
+
+@Html.Partial("_CategoryPage", Model.MainPage)
+
+@Html.Partial("_DashBoard", Model.DashBoard)
+
+@Html.Partial("_Footer", Model.Footer)

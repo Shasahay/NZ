@@ -1,0 +1,82 @@
+﻿@using NotesZone.Web.Infra.Extensions
+@model NotesZone.Web.Infra.ViewModels.CategoryLeftColumnViewModel
+
+<div id="main-left" class="left">
+    <span class="text-danger a-size-small "> @ViewBag.Message</span>
+    @foreach (var item in Model.Items)
+    {
+        if (@item.Category.Name == "Notes")
+        {
+            <div class="">
+                <div class="leftpane">
+                    <p>
+                        @if (@item.Category.Name == "Notes")
+                           
+                { @Html.Partial("_LookInside")}
+                        ViewBag.filePath = @item.ItemContent.FileName;
+                    </p>
+                    <p> <a href="#">@Html.RenderImageWithPath(@item.ItemContent.SmallImage, "bordered", 150, 110)</a></p>
+                    @Html.ActionLink("Read more >>", "Details", "Home", new { id = item.Id }, new { Class = "more" })
+                </div>
+
+                <div class="rightpane">
+                    <h2 class="a-size-small"> @Html.ActionLink(@item.ItemContent.Title, "Details", "Home", new { id = item.Id }, null)</h2>
+                    In <span class="a a-size-small a-color-secondary">@Html.ActionLink(@item.Category.Name, "Category", "Home", new { id = item.Category.Id }, null)</span>
+                    @Html.Raw(@item.CreatedDate.ToShortDateString()) by <span class="a-size-small a-color-secondary">@Html.Raw(@item.ItemContent.Author)</span>
+                    <p><span class="a-size-small a-color-secondary">@Html.Raw(@item.ItemContent.SortDescription)</span></p>
+                    @*<p><span class="a-size-small a-color-secondary">@Html.Raw(@item.ItemContent.Content)</span></p>*@
+                    <p><span class="currencyINR">&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="a-size-small a-color-secondary">@Html.Raw(@item.ItemContent.Price)</span></p>
+                    <p>
+                        @if (@item.Category.Name == "Notes")
+                    {
+                    @Html.Partial("_AddtoDownload", @item)
+
+                    }
+                    </p>
+                </div>
+
+            </div>
+        }
+
+
+        //Start of About Us section
+
+        if (@item.Category.Name == "About Us")
+        {
+            <div class="">
+
+                <div>
+                    <p><span class="a-size-small a-color-secondary">@Html.Raw(@item.ItemContent.Content)</span></p>
+                    @*<p><span class="a-size-small a-color-secondary">@Html.Raw(@item.ItemContent.Content)</span></p>*@
+
+                </div>
+
+            </div>
+        }
+
+        //End of About Us section
+
+        
+
+
+        <div class="content-separator"></div>
+        @*<div class="clearer">&nbsp;</div>*@
+    }
+    @*This is for Contach US page assuming there is no entry in table for contactUs category  *@ 
+    @if (Model.Items.Count <= 0)
+    {
+        @Html.Partial("_ContactUs", Model.ContactUs)
+    }
+
+    <div class="clearer">&nbsp;</div>
+
+    @*To enable the paging only on Notes pages*@
+    @*We are harding to 2 for gettting category Notes( id = 2); hard coding is not good practice lattar I'll change the logic to make it generic*@
+    @if (string.Equals(@Model.PagingData.PageActionLink.Split('/')[3], "2", StringComparison.CurrentCultureIgnoreCase))
+    {
+               <!-- Pagging -->
+        @Html.Partial("_Pagination", Model.PagingData)
+            <!-- End Pagging -->
+
+    }
+</div>

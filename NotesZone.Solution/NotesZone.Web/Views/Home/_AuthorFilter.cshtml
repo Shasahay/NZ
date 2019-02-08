@@ -1,0 +1,16 @@
+﻿@model NotesZone.Web.Infra.ViewModels.AuthorFilterViewModel
+
+<label class="">
+    <select name="Selet Category " class="button123">
+        <option selected="selected">Select Author</option>
+        @foreach (var author in Model.Authors)
+        {
+            <option value=@author>@author</option>
+        }
+    </select>
+</label>
+
+<style>
+
+</style>
+

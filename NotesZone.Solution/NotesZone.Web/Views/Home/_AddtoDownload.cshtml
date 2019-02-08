@@ -1,0 +1,42 @@
+﻿@model NotesZone.Domain.Common.Item
+
+<div>
+    @using (Html.BeginForm("AddtoBasket", "Basket"))
+    {
+    // @Html.HiddenFor(i => i.CurrentItem.Id);
+    @Html.Hidden("itemContentID", Model.ItemContent.Id);
+    @Html.Hidden("returnUrl", Request.Url.PathAndQuery);
+    <button id="btnDownload" class="orange-button"><span>Add to Download</span></button>
+
+    @*<div align="center">
+        <a class="button">Add to Download</a>
+    </div>*@
+    }
+</div>
+
+<style>
+     .orange-button {
+        width: 100px;
+        padding: 10px;
+        background-color: #684628;
+        color:#fff;
+        box-shadow: -8px 8px 10px 3px rgba(0,0,0,0.2);
+        font-weight: bold;
+        text-decoration: none;
+        border-style:none;
+        border-radius:6px 6px 6px 6px;
+        font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+     .orange-button:hover {
+        width: 100px;
+        padding: 10px;
+        background-color: #FEAF60;
+        color:#000;
+        box-shadow: -8px 8px 10px 3px rgba(0,0,0,0.2);
+        font-weight: bold;
+        text-decoration: none;
+        border-style:none;
+        border-radius:6px 6px 6px 6px;
+        font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+</style>

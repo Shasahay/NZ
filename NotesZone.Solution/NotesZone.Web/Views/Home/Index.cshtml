@@ -1,0 +1,27 @@
+﻿@model NotesZone.Web.Infra.ViewModels.HomePageViewModel
+
+@section TitleContent{
+    Index page
+}
+
+@section HeaderContent{
+
+}
+
+@{
+    ViewBag.Title = "Notes Zone";
+    <span class="text-danger a-size-small "> @ViewBag.Message</span>
+}
+
+@Html.Partial("_Header", Model.Header)
+
+@Html.Partial("_MainPage", Model.MainPage)
+
+@Html.Partial("_DashBoard", Model.DashBoard)
+
+@Html.Partial("_Footer", Model.Footer)
+<!-- Pagging -->
+
+<!-- End Pagging -->
+
+

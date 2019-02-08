@@ -1,0 +1,16 @@
+﻿@model NotesZone.Web.Infra.ViewModels.FilterViewModel
+
+<div>
+    @if (Model.CategoryFilter != null)
+    {
+        @Html.Partial("_CategoryFilter", Model.CategoryFilter)
+
+    }
+    
+    
+    @*@if (Model.AuthorFilter != null)
+    {
+        @Html.Partial("_AuthorFilter", Model.AuthorFilter)
+    }*@
+</div>
+

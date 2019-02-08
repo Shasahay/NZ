@@ -1,0 +1,70 @@
+﻿@model NotesZone.Web.Infra.ViewModels.CategoryFilterViewModel
+
+@*<div style="width:200px">
+    @Html.DropDownListFor(m => m.Categories, new SelectList("Select"))
+</div>*@
+@using (Html.BeginForm("Search", "Home", FormMethod.Post))
+    {
+
+
+        //{ var v = HttpContext.Current.Request.QueryString["c"]; }
+
+        var searchCat = "Select Exam";
+        var searchSubCat = "Select Subject";
+
+        var routeValues = HttpContext.Current.Request.RequestContext.RouteData.Values;
+        if (routeValues != null)
+        {
+            
+            if (routeValues.ContainsKey("Category"))
+            {    searchCat = routeValues["Category"].ToString();
+                
+            }
+            
+            if (routeValues.ContainsKey("SubCategory1"))
+            {
+                searchSubCat = routeValues["SubCategory1"].ToString();
+            }
+            
+        }
+
+    
+if (Model.Categories.Count > 0)
+{ 
+<select id="Category" name="Category" class="button123">
+    <option selected="selected">@searchCat</option>
+    @foreach (var item in Model.Categories)
+    {
+        @*<option value=@item>@item</option>*@
+            <option value="@item" selected="@(item == Request["Category"])">@item</option>
+
+    }
+</select>
+}
+
+if (Model.SubCategories1.Count > 0)
+{
+    <select id="SubCategory1" name="SubCategory1" class="button123">
+        <option selected="selected">@searchSubCat</option>
+        @foreach (var item in Model.SubCategories1)
+        {
+            @*<option value=@item>@item</option>*@
+            <option value="@item" selected="@(item == Request["SubCategory1"])">@item</option>
+        }
+    </select>
+}
+
+if (Model.SubCategories2.Count > 0)
+{
+    <select id="subCategory2" name="SubCategory2" class="button123">
+        <option selected="selected">Select SubCategory</option>
+        @foreach (var item in Model.SubCategories2)
+        {
+            <option value=@item>@item</option>
+        }
+    </select>
+}
+<button class="search-button"><span class="">Search</span></button>
+
+    }
+
